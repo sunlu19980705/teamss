@@ -1,0 +1,527 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+}
+.box{
+	width: 1366px;
+	height: 760px;
+	background: #f0f3ef;
+}
+.header{
+	width: 100%;
+	height: 28px;
+	background: #e3e4e5;
+}
+.head{
+	width: 1072px;
+	height: 28px;
+	margin:0 auto;
+	position: relative;
+}
+.head>span{
+	margin-left: 203px;
+	line-height: 28px;
+	display: inline-block;
+}
+.head>span>p{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border:1px solid #ccc;
+	position: absolute;
+	left: 175px;
+	top: 28px;
+	z-index: 99999;
+	line-height: 200px;
+	text-align: center;
+	color: pink;
+	font-size: 50px;
+	display: none;
+}
+.head>span>a:hover~p{
+	display: block;
+}
+a{
+	font-size: 12px;
+	color: #666;
+}
+.head ul{
+	float: right;
+	display: inline;
+}
+.head ul li{
+	float: left;
+	color: #666;
+	font-size: 12px;
+
+	line-height: 28px;
+
+}
+.head ul li img{
+	margin-left: 5px;
+}
+.head ul li a{
+	border-right: 1px solid #ccc;
+	padding:0 10px;
+	line-height: 12px;
+	display: inline-block;
+}
+.head ul li:last-child a,.head ul li:first-child a{
+	border: 0;
+}
+.head ul li:nth-child(2) a{
+	color: red;
+}
+.head ul li a p{
+	width: 251px;
+	height: 143px;
+	background: #fff;
+	border:1px solid #ccc;
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+.head ul li a:hover p{
+	display: block;
+}
+.main{
+	width: 1072px;
+	height: 128px;
+	background: #f0f3ef;
+	margin:0 auto;
+	position: relative;
+
+}
+.main img{
+	position: absolute;
+	top: -28px;
+	box-shadow: 0 0 20px #ccc;
+}
+.main form{
+	width: 540px;
+	height: 55px;
+	position: absolute;
+	left: 238px;
+	top:20px;
+}
+.main form input[type="text"]{
+	width: 450px;
+	height: 32px;
+	float: left;
+	border:0;
+	outline: none;
+	padding-right: 40px;
+	background:#fff url(../img/xj.png) no-repeat 460px 8px;
+}
+.main form input[type="button"]{
+	width: 50px;
+	height: 32px;
+	float: right;
+	border:0;
+	outline: none;
+
+	background: #f10215 url(../img/se.png) no-repeat center center;
+
+}
+.main form>ul li{
+	float: left;
+	width: 59px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.main form>ul li:not(:first-child){
+	margin-left: 8px;
+}
+.main form>ul li:first-child a{
+	color: red;
+}
+.main>ul{
+	position: absolute;
+	left: 205px;
+	top: 100px;
+}
+.main>ul li{
+	float: left;
+	
+}
+.main>ul li:nth-child(4) a,.main>ul li:nth-child(8) a{
+	border-right:1px solid #ccc;
+	line-height: 12px;
+	display: inline-block;
+
+
+}
+.main>ul li a{
+	padding:0 15px;
+}
+.main p{
+	
+	
+	width: 170px;
+	height: 31px;
+	border:1px solid #ccc;
+	position: absolute;
+	top: 21px;
+	right: 88px;
+	line-height: 31px;
+	background:#fff url(../img/car.png) no-repeat 45px 9px;
+}
+.main p a{
+	margin-left: 65px;
+	color: red;
+}
+.main p a b{
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: red;
+	display: inline-block;
+	position: relative;
+	top: -5px;
+}
+.main>.ewm{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.main .las{
+	width: 171px;
+	height: 36px;
+	background: #f7192e;
+	position:absolute;
+	right: 0;
+	bottom: 8px;
+	border-radius: 20px;
+	text-align: center;
+}
+.main .las a{
+	line-height: 36px;
+	font-size: 15px;
+	color: #fff;
+
+}
+.set{
+	width: 1366px;
+	height: 469px;
+
+	margin-top: 128px;
+	position: relative;
+}
+.set .rog{
+	width: 171px;
+	height: 425px;
+	
+	position: absolute;
+	right: 335px;
+}
+.set .dingwei{
+	width: 1073px;
+	height: 469px;
+	margin:0 auto;
+}
+.set .rog img{
+	margin-bottom: 5px;
+}
+.set .left{
+	position: absolute;
+	left: -73px;
+
+}
+.set .left .img1{
+	margin-left: -8px;
+	display: block;
+	height: 425px;
+	overflow: hidden;
+
+}
+.set .left .img2{
+	height: 425px;
+	overflow: hidden;
+}
+.set .lastone{
+	width: 173px;
+	height: 425px;
+	background: #fff;
+	position: absolute;
+	right: 160px;
+}
+.left1{
+	width: 172px;
+	height: 425px;
+	
+	float: left;
+	position: relative;
+}
+.left1 ul{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.left1 ul li{
+	margin-top: 7px;
+	font-size: 13px;
+}
+.left .shou{
+	position: absolute;
+	top: 0;
+	left: 221px;
+	width: 0;
+	overflow: hidden;
+	transition: .5s;
+	z-index: 1000
+}
+.left .img1:hover~.shou{
+	width: 790px;
+}
+.left1 .sss{
+	width: 900px;
+	height: 470px;
+	background: #fff;
+	border:1px solid #ccc;
+	position: absolute;
+	left: 172px;
+	z-index: 2222;
+	overflow: hidden;
+	display: none;
+	
+	
+}
+.left1 .sss>div>a{
+	
+	font-size: 200px;
+	display: block;
+	height: 425px;
+	text-align: center;
+	line-height: 470px;
+
+}
+.left1 ul:hover~.sss{
+	display: block;
+}
+
+.lunbo{
+	width: 533px;
+	height: 425px;
+
+	float: left;
+	position: relative;
+}
+.lunbo .pictures{
+	width: 533px;
+	height: 425px;
+	overflow: hidden;
+}
+.lunbo ol li{
+
+	width: 10px;
+	height: 10px;
+
+	border-radius: 50%;
+	border:5px solid #ea525e;
+
+	float: left;
+	margin-left: 15px;
+}
+.lunbo ol{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -90px;
+
+}
+.lunbo img{
+	display: block;
+	width: 100%;
+	
+}
+.lunbo ol li a{
+	display: block;
+	height: 15px;
+}
+.lunbo ol li:hover{
+	transform:scale(2);
+	background: #fff;
+}
+.fixed{
+	width: 31px;
+	height: 194px;
+	background: #7a6e6e;
+	position: fixed;
+	right: 0;
+	bottom: 50%;
+	margin-bottom: -97px;
+	z-index: 222222222;
+}
+.fixed ul li{
+	width: 32px;
+	height: 32px;
+	border-bottom: 1px solid #fff;
+	position: relative;
+}
+.fixed ul li a{
+	position: absolute;
+	right: -100px;
+	color: #fff;
+	transition: .8s;
+	width: 67px;
+	height: 32px;
+	background: red;
+	line-height: 32px;
+	overflow: hidden;
+
+}
+.fixed ul li:hover{
+	background: red;
+}
+.fixed ul li:hover a{
+	right: 32px;
+}
+.fixed ul li span{
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 0;
+ 	background: #7a6e6e url(../img/toolbars.png) -50px -52px;
+}
+.fixed ul li:hover span{
+	background: red url(../img/toolbars.png) -50px -52px;
+}
+
+.lastone .top{
+	width: 150px;
+	height: 251px;
+	margin:0 auto;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.lastone .top .id11{
+	border-radius: 50%;
+	border:5px solid #ccc;
+	box-shadow: 5px 5px 20px #ccc;
+}
+.lastone .top p{
+	color: #666;
+}
+.lastone .top span {
+	display: block;
+}
+.lastone .top span .a11{
+	display: block;
+	width: 61px;
+	height: 19px;
+	background: #fff;
+	float: left;
+	margin-left: 10px;	
+	color: red;
+	border-radius: 15px;
+}
+.lastone .top > a{
+	margin-right: 10px;
+	color: #000;
+}
+.lastone .top span .a22{
+	display: block;
+	width: 61px;
+	height: 19px;
+	color: #d0c385;
+	background:#000;
+	float: right;
+	margin-right: 10px;
+	border-radius: 15px;
+}
+.lastone .top ul{
+	float: left;
+}
+.lastone .top ul li{
+	display: inline;
+}
+.lastone .top ul li a{
+	float: left;
+	padding:0 10px;
+	
+}
+.lastone .top ul li a:first-child{
+	border-right:1px solid #ccc;
+}
+.lastone .top ul>span{
+	float:right;
+	font-size: 12px;
+}
+.lastone .top ul li a:hover{
+	border-bottom: 2px solid red;
+}
+.lastone .top .show_ul{
+	width: 145px;
+	height: 90px;
+	background:#fff;
+	
+	border-bottom: 1px solid #ccc;
+	float: left;
+	overflow: hidden;
+
+}
+.lastone .top .show_ul p{
+	height: 120px;
+}
+.lastone .top .xuebi{
+	width: 150px;
+	height: 139px;
+	margin:0 auto;
+	background: #fff;
+	float: left;
+}
+.lastone .top .xuebi ul
+{
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.lastone .top .xuebi ul li{
+	width: 25px;
+	height: 35px;
+	float: left;
+	margin:5px;
+}
+.lastone .top .xuebi ul .im1{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im2{
+	background: url(../img/xuebi.png) -1094px -506px;
+}
+.lastone .top .xuebi ul .im3{
+	background: url(../img/xuebi.png) -1131px -506px;
+}
+.lastone .top .xuebi ul .im4{
+	background: url(../img/xuebi.png) -1169px -506px;
+}
+.lastone .top .xuebi ul .im5{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im6{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im7{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im8{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im9{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im10{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im11{
+	background: url(../img/xuebi.png) -1056px -506px;
+}
+.lastone .top .xuebi ul .im12{
+	background: url(../img/xuebi.png) -1056px -506px;
+}

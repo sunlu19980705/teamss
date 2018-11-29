@@ -1,0 +1,138 @@
+@import "mixin.scss";
+@import "common.scss";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    @include box_flex;
+    @include direction(column);
+    header {
+        width: 100%;
+        height: pxTorem(48px);
+        padding: 0 pxTorem(10px);
+        @include sizing;
+        @include box_flex;
+        @include justify(space-between);
+        @include align(center);
+        h3 {
+            font-size: pxTorem(18px);
+        }
+        ul {
+            @include box_flex;
+            @include justify(space-around);
+            border-radius: pxTorem(20px);
+            border: 1px solid #ccc;
+            width: pxTorem(60px);
+            padding: pxTorem(3px) 0;
+            li:nth-child(1) {
+                width: 47%;
+                border-right: 1px solid #ccc;
+            }
+        }
+    }
+    section {
+        @include flex;
+        padding: 0 10px;
+        @include sizing;
+        @include box_flex;
+        @include direction(column);
+        width: 100%;
+        #pic {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+            height: pxTorem(65px);
+            @include box_flex;
+            @include align(center);
+            position: relative;
+            span {
+                position: absolute;
+                left: pxTorem(15px);
+            }
+            input {
+                width: 100%;
+                height: pxTorem(40px);
+                background: #f0f1f2;
+                font-size: pxTorem(20px);
+                border-radius: pxTorem(10px);
+                padding-left: pxTorem(40px);
+            }
+        }
+        .dls {
+            @include box_flex;
+            width: 100%;
+            @include flexWrap(wrap);
+            @include align(center);
+            dl {
+                width: 20%;
+                height: pxTorem(80px);
+                @include box_flex;
+                @include direction(column);
+                @include align(center);
+                @include justify(center);
+                dt {
+                    img {
+                        width: pxTorem(40px);
+                    }
+                }
+                dd {
+                    font-size: pxTorem(13px);
+                }
+            }
+        }
+        .scrollData {
+            width: 100%;
+            height: pxTorem(310px);
+            margin-top: pxTorem(30px);
+            overflow: hidden;
+            .Data {
+                width: 100%;
+                @include box_flex;
+                @include flexWrap(wrap);
+                dl {
+                    width: 33%;
+                    @include box_flex;
+                    @include direction(column);
+                    @include align(center);
+                    margin-top: pxTorem(10px);
+                    dt {
+                        img {
+                            width: pxTorem(80px);
+                        }
+                    }
+                    dd {
+                        h2 {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: pxTorem(50px);
+        @include box_flex;
+        dl {
+            width: 33%;
+            height: 100%;
+            @include align(center);
+            @include box_flex;
+            @include justify(center);
+            @include direction(column);
+            dt {
+                font-size: pxTorem(20px);
+            }
+            dd {
+                font-size: pxTorem(14px);
+            }
+        }
+    }
+}
